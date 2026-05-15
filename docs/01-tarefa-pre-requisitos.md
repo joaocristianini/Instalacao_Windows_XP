@@ -43,7 +43,7 @@ O VirtualBox permite o uso de controladoras do tipo SATA, IDE, SCSI e SAS. Por q
 **Sua Resposta:**
 > Os sistemas operacionais modernos, como o Windows 11, utilizam SATA ou NVMe como padrão porque essas tecnologias são mais rápidas, eficientes e possuem suporte nativo aos hardwares atuais, especialmente SSDs. Elas oferecem melhor desempenho e maior velocidade de transferência de dados.
 
-Já o Windows XP é um sistema antigo, criado em uma época em que o padrão mais utilizado era o IDE. Por isso, ele não possui drivers nativos para reconhecer automaticamente controladoras SATA modernas no Oracle VM VirtualBox. Assim, foi necessário criar manualmente uma controladora IDE para que o sistema detectasse o disco rígido corretamente durante a instalação.
+> Já o Windows XP é um sistema antigo, criado em uma época em que o padrão mais utilizado era o IDE. Por isso, ele não possui drivers nativos para reconhecer automaticamente controladoras SATA modernas no Oracle VM VirtualBox. Assim, foi necessário criar manualmente uma controladora IDE para que o sistema detectasse o disco rígido corretamente durante a instalação.
 
 ---
 [⬅️ Voltar para o Sumário](../README.md) | [Ir para a Etapa 2 ➡️](02-tarefa-instalacao.md)
