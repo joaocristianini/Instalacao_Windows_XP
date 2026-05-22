@@ -26,12 +26,15 @@ Instalar os drivers de virtualização do pacote Guest Additions do VirtualBox p
 
 ### 📸 [EVIDÊNCIA]
 *Insira aqui uma captura de tela do Windows XP em "Modo Janela Redimensionada" ou em "Tela Cheia" dentro do VirtualBox, demonstrando que os drivers de vídeo e integração do mouse estão ativos de forma fluida.*
+<img width="1919" height="1033" alt="image" src="https://github.com/user-attachments/assets/7e3de716-7ada-4d6a-b4eb-61e2ed8f3d68" />
 
 ### ❓ [QUESTÃO 3]
 Quais recursos técnicos específicos passam a funcionar entre o sistema operacional real (hospedeiro) e a máquina virtual do Windows XP (convidado) após a instalação correta dos "Adicionais de Convidado" (Guest Additions)?
 
 **Sua Resposta:**
-> 
+> Após a instalação correta dos Adicionais de Convidado (Guest Additions) em uma VM com Windows XP, diversos recursos de integração técnica são ativados para otimizar a comunicação entre o hardware virtualizado e o sistema hospedeiro. O principal deles é o suporte a Drivers de Vídeo Otimizados, que permite o redimensionamento automático da janela da VM e melhora o desempenho gráfico, habilitando inclusive a aceleração 2D e 3D. Outro recurso essencial é a Integração do Ponteiro do Mouse, que elimina a necessidade de "capturar" e "liberar" o cursor manualmente, permitindo que ele flua livremente entre as telas.
+
+Além disso, o sistema passa a suportar a Área de Transferência Compartilhada (copiar e colar textos ou arquivos) e o recurso de Arrastar e Soltar (drag-and-drop) entre as duas máquinas. No campo da conectividade, tornam-se funcionais as Pastas Compartilhadas, que permitem mapear diretórios do computador real como unidades de rede dentro do Windows XP. Por fim, ocorre a Sincronização de Horário, garantindo que o relógio da VM esteja sempre alinhado com o do hospedeiro, e a habilitação do Modo Seamless (Integração de Tela), onde as janelas do Windows XP podem flutuar diretamente na área de trabalho do seu sistema principal, como se fossem programas nativos.
 
 ---
 [⬅️ Voltar para a Etapa 2](02-tarefa-instalacao.md) | [Ir para a Etapa 4 ➡️](04-tarefa-troubleshooting-seguranca.md)
